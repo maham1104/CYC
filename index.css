@@ -7,8 +7,14 @@ background: red;
 
 /*a is all the links inside the li class in the nav class. I specified that it was not the only a link*/
 
-nav > li > a:not(:only-child){
-  position: relative; 
+
+=======
+/*nav > ul > li > a:not(:only-child){*/
+a{
+  position: relative;
+  &:before{
+  content: ""; 
+
   position: absolute;   
   top: 40% ;
   right:5px;  
