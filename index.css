@@ -1,11 +1,13 @@
+
 @import "compass/css3";
 
 /*ul > li > a:first-child:nth-last-child(2){
 background: red;
 }*/
 
-nav > ul > li > a:not(:only-child){
-position: relative;
+/*nav > ul > li > a:not(:only-child){*/
+a{
+  position: relative;
   &:before{
   content: ""; 
   position: absolute;   
